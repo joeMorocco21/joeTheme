@@ -1,0 +1,23 @@
+/*
+Theme Name: joe
+Theme URL: https:// www.exemple.com
+Author : Youssef
+Autor URL: https://www.joe-web.fr
+Description: Theme fait par Youssef
+Requires at leats: wordpress 5.0
+Version : 1.0
+*/
+body{
+    background-color: cornflowerblue;
+}
+.size-post-thumbnail
+{
+    width: 100%;
+    height: 25vh;
+}
+[class*="col-"]{
+    border: 1px solid black;
+    border-radius: 0px;
+    line-height: auto;
+    text-align: left;
+   } 
