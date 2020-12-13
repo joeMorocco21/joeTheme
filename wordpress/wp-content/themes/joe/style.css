@@ -1,4 +1,4 @@
-/*
+    /*
 Theme Name: joe
 Theme URL: https:// www.exemple.com
 Author : Youssef
@@ -7,17 +7,356 @@ Description: Theme fait par Youssef
 Requires at leats: wordpress 5.0
 Version : 1.0
 */
-body{
-    background-color: cornflowerblue;
-}
-.size-post-thumbnail
-{
-    width: 100%;
-    height: 25vh;
-}
-[class*="col-"]{
-    border: 1px solid black;
-    border-radius: 0px;
-    line-height: auto;
-    text-align: left;
-   } 
+    
+    @import url('https://fonts.googleapis.com/css2?family=Exo+2');
+    body {
+        background-color: #ededed;
+        font-family: 'Exo 2', sans-serif;
+        ;
+    }
+    
+    .size-post-thumbnail {
+        width: 100%;
+        height: 50vh;
+        background-size: cover;
+    }
+    
+    [class*="col-"] {
+        border: 0px solid black;
+        border-radius: 0px;
+        line-height: auto;
+        text-align: left;
+    }
+    
+    .post_image img {
+        text-align: center;
+        height: 60vh;
+        width: 60vw;
+    }
+    
+    .content p {
+        font-family: 'Acme', sans-serif;
+    }
+    
+    .hr1 {
+        width: 8vh;
+        height: 0.4vh;
+        background-color: green;
+        margin-top: 6vh;
+    }
+    
+    .title1 {
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .title2 {
+        font-weight: bold;
+        text-align: center;
+        color: #000;
+    }
+    
+    .ptx {
+        height: 40vh;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    
+    .ptxs {
+        height: 40vh;
+    }
+    
+    .btn_plus {
+        height: 7vh;
+        width: 13vw;
+        background-color: green;
+        color: #fff;
+        padding-top: 1.5vh;
+        font-size: 1.2vw;
+        text-decoration: none;
+        font-weight: bold;
+        padding-left: 1vh;
+        border-radius: 2vw;
+        margin-top: 12.5vh;
+        margin-left: 2vw;
+    }
+    
+    .btn_plus:hover {
+        background-color: #4c4c4c;
+    }
+    
+    .fluid {
+        background-image: url("http://localhost/wordpress/wp-content/uploads/2020/12/football-3471371_1920.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: solid 1px white;
+        text-align: center;
+    }
+    
+    .mgx {
+        background-color: #4c4c4c;
+        width: 100%;
+        height: 30vh;
+        margin-top: 9vh;
+        text-align: center;
+    }
+    
+    .btn_register {
+        height: 7vh;
+        width: 13vw;
+        background-color: green;
+        color: #fff;
+        padding-top: 1.5vh;
+        text-decoration: none;
+        font-weight: bold;
+        padding-left: 1vh;
+        border-radius: 2vw;
+        margin-top: 5vh;
+        font-size: 1.2vw;
+        margin-left: 15vw;
+    }
+    
+    .register {
+        color: #fff;
+    }
+    
+    .connect {
+        color: #fff;
+    }
+    
+    .btn_connect {
+        height: 7vh;
+        width: 13vw;
+        background-color: green;
+        color: #fff;
+        padding-top: 1.5vh;
+        text-decoration: none;
+        font-weight: bold;
+        padding-left: 1vh;
+        border-radius: 2vw;
+        margin-top: 5vh;
+        font-size: 1.2vw;
+        margin-left: 15vw;
+    }
+    
+    .btn_f {
+        height: 7vh;
+        width: 15vw;
+        background-color: #4c4c4c;
+        color: #fff;
+        padding-top: 1.5vh;
+        text-decoration: none;
+        font-weight: bold;
+        padding-left: 1vh;
+        border-radius: 2vw;
+        margin-top: 12.5vh;
+        font-size: 1.2vw;
+        margin-left: 0vw;
+    }
+    
+    .information_section {
+        background-color: #fff;
+        border: 1px solid white;
+        text-align: center;
+    }
+    
+    .apropos_section {
+        border: solid 1px #ededed;
+        text-align: center;
+    }
+    
+    .btn_f:hover {
+        background-color: green;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .ptxs {
+            margin-top: 5vh;
+        }
+        .btn_f {
+            height: 7vh;
+            width: 100%;
+            background-color: #4c4c4c;
+            color: #fff;
+            padding-top: 1.5vh;
+            font-size: 2.2vw;
+            text-decoration: none;
+            font-weight: bold;
+            padding-left: 1vh;
+            border-radius: 2vw;
+            margin-top: 2.5vh;
+            margin-left: 0vw;
+        }
+        .btn_plus {
+            height: 7vh;
+            width: 100%;
+            background-color: green;
+            color: #fff;
+            padding-top: 1.5vh;
+            font-size: 2.2vw;
+            text-decoration: none;
+            font-weight: bold;
+            padding-left: 1vh;
+            border-radius: 2vw;
+            margin-top: 8.5vh;
+            margin-left: 0vw;
+        }
+        .btn_connect {
+            height: 7vh;
+            width: 25vw;
+            background-color: green;
+            color: #fff;
+            padding-top: 1.5vh;
+            text-decoration: none;
+            font-weight: bold;
+            padding-left: 1vh;
+            border-radius: 2vw;
+            margin-top: 5vh;
+            font-size: 2.2vw;
+            margin-left: 15vw;
+        }
+        .btn_register {
+            height: 7vh;
+            width: 25vw;
+            background-color: green;
+            color: #fff;
+            padding-top: 1.5vh;
+            text-decoration: none;
+            font-weight: bold;
+            padding-left: 1vh;
+            border-radius: 2vw;
+            margin-top: 5vh;
+            font-size: 2.2vw;
+            margin-left: 15vw;
+        }
+    }
+    
+    .lgo {
+        color: green;
+        font-size: 12vh;
+        margin-top: 3vh;
+    }
+    
+    .ntx {
+        background-color: #fff;
+    }
+    
+    .p1 {
+        color: #fff;
+    }
+    
+    .carousel-item img {
+        width: 30vw;
+        height: 25vh;
+    }
+    
+    .slide_section {
+        background-color: green;
+        text-align: center;
+    }
+    
+    .navbar-brand img {
+        width: 7vw;
+        height: 8vh;
+    }
+    
+    .pts img {
+        width: 12vw;
+        height: 17vh;
+    }
+    
+    .pts a {
+        text-decoration: none;
+        color: #4c4c4c;
+    }
+    
+    .pts a:hover {
+        color: green;
+    }
+    
+    .ptsV {
+        background-image: url("http://localhost/wordpress/wp-content/uploads/2020/12/map.png");
+        background-size: cover;
+    }
+    
+    .ptsC p {
+        color: white;
+    }
+    
+    .ptsC h5 {
+        color: white;
+        font-weight: bold;
+    }
+    
+    .ptsC a {
+        text-decoration: none;
+        color: #e4a700;
+    }
+    
+    .footer {
+        background-color: #4c4c4c;
+        text-align: center;
+    }
+    
+    .mtp a {
+        color: #e4a700;
+    }
+    
+    .mtp {
+        color: white;
+    }
+    
+    .mtp1 {
+        text-align: right;
+    }
+    
+    .mtp2 {
+        text-align: center;
+    }
+    
+    .art {
+        background-color: white;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #e4a700;
+    }
+    
+    .colm:hover .overlay {
+        opacity: 0.8;
+    }
+    
+    .text {
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .text a {
+        color: #fff;
+    }
+    
+    .text a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .main {
+        text-align: center;
+    }
